@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import PhilosophySection from './components/PhilosophySection'
+import TimelineSection from './components/TimelineSection'
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <HeroSection />
       <PhilosophySection />
+      <TimelineSection />
     </div>
   )
 }
